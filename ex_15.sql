@@ -1,0 +1,3 @@
+SELECT * FROM users
+WHERE (city = 'Marseille' OR city = 'Lille')
+AND age BETWEEN 18 AND 30;
